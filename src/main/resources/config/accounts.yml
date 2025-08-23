@@ -1,0 +1,11 @@
+build:
+  version: 3.0
+
+accounts:
+  message: "Accounts Microservice"
+  contactDetails:
+    email: "jdoe@me.com"
+    mobile: "1234567890"
+  onCallSupport:
+    - (+91) 1234567890
+    - (+91) 1234567891

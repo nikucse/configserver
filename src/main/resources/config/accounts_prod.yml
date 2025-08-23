@@ -1,0 +1,12 @@
+build:
+  version: 1.0
+
+accounts:
+  message: "Accounts Microservice - PROD API's"
+  contactDetails:
+    name: "John Doe - PROD Lead"
+    email: "jdoe@me.com"
+    mobile: "1234567890"
+  onCallSupport:
+    - (+91) 1234567890
+    - (+91) 1234567891
