@@ -14,9 +14,25 @@ spring:
       server:
         #native:
           #search-locations: classpath:/config
-      git:
-        uri: https://github.com/nikulkumar/configserver.git
-        default-label: main
-        timeout: 5
-        clone-on-start: true
-        force-pull: true
+
+        git:
+          uri: https://github.com/nikucse/configserver.git
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+encrypt:
+  key: 21D91EC1EF41DF7AD8D3E5BB797F6
