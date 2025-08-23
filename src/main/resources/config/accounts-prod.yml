@@ -2,7 +2,7 @@ build:
   version: 1.0
 
 accounts:
-  message: "Accounts Microservice - PROD API's"
+  message: "Accounts Microservice - PRODUCTION API's"
   contactDetails:
     name: "John Doe - PROD Lead"
     email: "jdoe@me.com"
