@@ -1,7 +1,7 @@
 build:
   version: 2.0
 
-accounts:
+cards:
   message: "Cards Microservice - QA API's"
   contactDetails:
     name: "John Doe - QA Lead"
